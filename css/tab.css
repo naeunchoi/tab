@@ -1,0 +1,26 @@
+ul,ol,li{list-style:none}
+	a{text-decoration:none;cursor:pointer}
+	a:hover{text-decoration:none}
+
+
+
+	#tabWrap{width: 1000px; margin: 100px auto;}
+	.tab{font-size: 0;}
+	.tab li{display: inline-block; vertical-align: top; width: 20%; border:1px solid #012b61; border-left:none;}
+	.tab li:first-child{border-left:1px solid #012b61}
+	.tab li a{display: block; height: 50px; text-align: center; font-size: 16px; color: #000; line-height: 50px;}
+	.tab li.on{background: #012b61;}
+	.tab li.on a{    color: #fff; font-weight: bold;}
+
+	.tabindex{
+		width: 100%;
+		text-align: center;
+		font-size: 100px;
+		height: 500px;
+		line-height: 500px;
+		border-bottom:3px solid #012b61; 
+		display: none;
+	}
+	/*.tabindex1{display: block;}*/
+
+	.tabindex.on{display: block;}
